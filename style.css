@@ -1,0 +1,67 @@
+#navbar{
+    height: 100px;
+    background-color: rgb(122, 113, 249);
+}
+header{
+    height: 10;
+    background-color: burlywood;    
+    border-width: 1px;
+    border-style: solid;
+    border: color(green);
+    border-radius: 10px;
+    animation: colorAnimate 0.25s ease-in 0s infinite;
+    /* animation-duration: 0.25s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s; */
+}
+@keyframes colorAnimate{
+    from { background-color: burlywood;}
+    to { background-color: skyblue;}
+}
+div.container{
+    padding: 100px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+    background-image: url(Images.jpg);
+    background-size:cover;
+}
+div.container1{
+    background-color:rgb(94, 94, 168);
+} 
+h2{
+    text-align: center;
+}
+h1{
+    text-align:left;
+}
+div.div2{
+    display: flex;
+    justify-content: center;
+}
+button{
+    position: absolute;
+    justify-content: center;
+    color: brown;
+    transition-property: all;
+    transition-duration: 2s;
+    border-radius: 50px;
+}
+footer{
+    position: fixed;
+    justify-content: space-evenly;
+    bottom: 0px;
+    width: 100%;
+}
+ul {
+text-decoration:none;
+color: black;
+display: flex;
+justify-content: space-evenly;
+}
+li{
+    list-style-type: none;
+}
+button:hover{
+    background-color: black;
+    color: aliceblue;
+}
